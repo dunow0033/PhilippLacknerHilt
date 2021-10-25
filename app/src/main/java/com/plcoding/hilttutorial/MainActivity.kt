@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Log.d("MainActivity", "Test String from MainActivity: $testString")
+        System.out.println("Test String from MainActivity: $testString")
         viewModel
     }
 }
